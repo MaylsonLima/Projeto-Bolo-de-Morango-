@@ -1,0 +1,206 @@
+@charset "UTF8";
+
+@font-face {
+  font-family: arimo;
+  src: url('fontes/arimo.ttf');
+}
+@font-face {
+  font-family: shine;
+  src: url('fontes/hourglass-of-shine.otf');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #0E0E0E;
+}
+body {
+  background-color: #FEFEFE;
+}
+main {
+  font-family: arimo;
+}
+header {
+  background-image: linear-gradient(to bottom, #AC555B, #740019);
+  padding: 35px;
+  color: #FEFEFE;
+  text-align: center;
+}
+header > h1 {
+  font-family: shine;
+  font-size: 32px;
+}
+header > p {
+  margin-top: 18px;
+  font-family: arimo;
+}
+p {
+  line-height: 23px;
+  font-size: 17px;
+  margin: 15px 12px 15px 12px;
+}
+ul {
+  line-height: 23px;
+  font-size: 17px;
+  margin: 15px 12px 15px 12px;
+}
+.paratudo {
+  padding: 15px;
+}
+#apresentar > p {
+  margin: 15px 12px 15px 12px;
+}
+#apresentarh1 {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.animato1:hover {
+  background-image: linear-gradient(to right, #AC555B, #740019);
+  transition-duration: 0.5s;
+  padding: 5px;
+  border-radius: 0px 30px;
+  color: #FEFEFE;
+}
+#apresentar > h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.animato2:hover {
+  background-image: linear-gradient(to right, #AC555B, #740019, transparent);
+  transition-duration: 0.5s;
+  padding: 3px;
+  border-radius: 5px;
+  color: #FEFEFE;
+}
+#imagemdefundo {
+  background-image: url('imagens/fundo-de-bolo-principal-creditos-vicky-ng-unsplash.jpg');
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 6px 6px 13px 0px #0E0E0E94;
+}
+#textodeimagem {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  background-color: #36000036;
+  color: #FEFEFE;
+  padding: 50px;
+  border-radius: 5px;
+  font-family: shine;
+  font-size: 50px;
+  text-align: center;
+}
+#textodeimagem:hover {
+  color: #BE8387;
+  transition-duration: 0.5s;
+}
+#receita2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+#ingredientesh2 {
+  font-size: 27px;
+}
+ul {
+  font-size: 17px;
+  margin: 15px 12px 15px 12px;
+}
+li {
+  font-size: 17px;
+  margin: 15px 12px 15px 12px;
+  line-height: 20px;
+}
+#paramassah3 {
+  font-size: 23px;
+}
+#naodeixarhtmlseco {
+  color: #FEFEFE;
+  background-color: #BE8387;
+  padding: 15px;
+  border-radius: 0px 50px 0px 50px;
+  border: 6px solid #740019;
+  margin-bottom: 20px;
+}
+#recheio {
+  font-size: 23px;
+}
+#naodeixarhtmlseco2 {
+  color: #FEFEFE;
+  background-color: #BE8387;
+  padding: 15px;
+  border-radius: 50px 0px 50px 0px;
+  border: 6px solid #740019;
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 8px solid #BE8387;
+  border-radius: 0px 100px 100px 100px;
+}
+#mododepreparo {
+  font-size: 27px;
+  color: #FEFEFE;
+}
+#massa {
+  font-size: 24px;
+}
+#preparo {
+  background-color: #AC555B;
+  padding: 13px;
+  border-radius: 0px 100px 0px 100px;
+  border: 10px solid #740019;
+  margin-bottom: 20px;
+}
+#preparo > p, li, h3 {
+  color: #FEFEFE;
+}
+#montagem {
+  font-size: 27px;
+}
+#montagem2 {
+  color: #FEFEFE;
+  background-color: #BE8387;
+  padding: 15px;
+  border-radius: 0px 50px 0px 50px;
+  border: 6px solid #740019;
+  margin-bottom: 20px;
+}
+#finalizacao {
+  background-image: url('imagens/bolo-pronto-creditos-leo-roza-unsplash.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh;
+  color: #FEFEFE;
+  position: relative;
+  box-shadow: inset 3px 3px 5px 0px #27272782;
+}
+#fundo {
+  background-color: #3300005C;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate( -50%, -50%);
+  display: block;
+  border-radius: 0px 50px 50px 50px;
+  border: 5px solid #5100005C;
+}
